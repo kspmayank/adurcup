@@ -25,3 +25,70 @@ h1{
 .glyphicon-chevron-left, .glyphicon-chevron-right{
 	color: #000;
 }
+
+footer{
+	background-color: #262626;
+}
+
+footer p{
+	color: #fff;
+}
+
+#mapDiv{
+	border-radius: 5px;
+}
+
+#contact{
+	text-align: right;
+	color: #fff;
+}
+
+#contact a{
+	color: #fff;
+}
+
+.social ul{
+	list-style: none;
+	text-align: center;
+}
+.social ul li{
+	color: #bebebe;
+	border: 1px solid #aaaaaa;
+	display: inline; 
+	padding: 0.2em;
+	margin: 1em;
+	background-color: #2f2f2f;
+	font-size: 1.5em;
+}
+.social ul li i{
+	min-width: 1em;
+	min-height: 1em;
+}
+
+.social ul li a{
+	color: #bebebe;	
+}
+
+.secondary-nav ul{
+	list-style: none;
+	text-align: center;
+}
+.secondary-nav ul li{
+	color: #686868;
+	display: inline; 
+	margin: 1em 2em;
+}
+.secondary-nav ul li i{
+	min-width: 1em;
+	min-height: 1em;
+}
+
+.secondary-nav ul li a{
+	color: #686868;	
+	text-decoration: none;
+}
+
+.copyright{
+	color: #686868;	
+	padding-bottom: 1em;	
+}
