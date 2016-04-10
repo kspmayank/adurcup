@@ -92,3 +92,20 @@ footer p{
 	color: #686868;	
 	padding-bottom: 1em;	
 }
+
+@media screen and (max-width: 720px) {
+    #contact{
+		text-align: center;
+		color: #fff;
+	}
+
+	.social ul li{
+		padding: 0.2em;
+		margin: 0.5em;
+	}
+
+	.secondary-nav ul li{
+		display: inline-block;
+		min-width: 25%;
+	}
+}
