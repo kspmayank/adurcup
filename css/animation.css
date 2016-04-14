@@ -21,3 +21,28 @@
     }
 
 }
+
+
+.rotback{
+            
+    animation: exampleback 10s infinite;
+    /*animation-duration: 10s;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: bottom;    */
+}    
+
+@keyframes exampleback{
+    0%{
+        -ms-transform:  translate(-100px,100px); /* IE 9 */
+        -webkit-transform:  translate(-100px,100px); /* Safari */
+        transform:  translate(-100px,100px);
+        
+    }
+    100%{
+        -ms-transform: rotate(0deg) translate(100px,-1000px); /* IE 9 */
+        -webkit-transform: rotate(0deg) translate(100px,-1000px); /* Safari */
+        transform: rotate(0deg) translate(100px,-1000px);
+        
+    }
+
+}
